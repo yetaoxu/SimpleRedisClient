@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xuyetao/CLionProjects/SimpleRedisClient/client.cpp
+stdlib.h
+-
+string.h
+-
+errno.h
+-
+sys/socket.h
+-
+resolv.h
+-
+stdio.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+client.h
+/Users/xuyetao/CLionProjects/SimpleRedisClient/client.h
+
+/Users/xuyetao/CLionProjects/SimpleRedisClient/client.h
+
+/Users/xuyetao/CLionProjects/SimpleRedisClient/main.cpp
+iostream
+-
+client.h
+/Users/xuyetao/CLionProjects/SimpleRedisClient/client.h
+zconf.h
+-
+stdio.h
+-
+
